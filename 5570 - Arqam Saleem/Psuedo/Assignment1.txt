@@ -1,0 +1,167 @@
+//Arqam Saleem 5570
+
+1. Write a program that takes two numbers as innput and prints their sum.
+
+PROGRAM Sum:
+
+READ Number1;
+READ Number2;
+PRINT Number1+Number2;
+
+END.
+
+2. Write a program that prints all even numbers frotn 1 to 100.
+
+PROGRAM PrintEven1to100:
+
+Start = 1;
+WHILE(Start<=100):
+DO IF(Start MOD 2 == 0):
+THEN PRINT Start + ",";
+Start += 1;
+ENDIF;
+ENDWHILE;
+
+END.
+
+3. Write a function that checks if a given year is a leap year or not.
+
+PROGRAM CheckLeapYear:
+
+READ InputYear;
+IF(InputYear MOD 4 == 0):
+THEN PRINT InputYear + " is a Leap Year!";
+ELSE PRINT InputYear + " is not a Leap Year!";
+ENDIF
+
+END.
+
+4. Write a program that converts kilometers per hours to miles per hour. Hint: 1km = 0.621371
+
+PROGRAM ConvertKMPHtoMPH:
+
+READ Speed;
+PRINT "Original Speed in KMPH: " + Speed;
+PRINT "Converted Speed in MPH: " + Speed*0.621371;
+
+END.
+
+5. Write a pseudocode to check whether a number is a buzz number or not. Hint: A number is said to be buzz if it is divisible by 7 or if it ends with 7.
+
+PROGRAM CheckBuzzNumber:
+
+READ BuzzNumber;
+IF(BuzzNumber MOD 7 == 0 OR BuzzNumber MOD 10 == 7)
+THEN PRINT BuzzNumber + " is a Buzz Number!";
+ELSE PRINT BuzzNumber + " is not a Buzz Number!";
+ENDIF
+
+END.
+
+6. Write a program that asks a user for number and prints the multiplication table of that number up to 10.
+
+PROGRAM NumberTable:
+
+READ Number;
+FOR(I = 0 to 10, STEP = 1):
+	PRINT Number + " X " I + " = " + Number*I
+ENDFOR;
+
+END.
+
+7. Write a program that computes the factorial of a number (n').
+
+PROGRAM Factorial:
+
+READ Number;
+Result = 2;
+WHILE(Number >= 3):
+DO Total *= Number;
+Number -= 1;
+ENDWHILE;
+PRINT "Factorial of " + Number + " is = " + Total;
+
+END.
+
+8. Write a function that checks whether a number is prime or not.
+
+PROGRAM CheckPrime:
+
+READ Number;
+Limit = 2;
+IsPrime = TRUE;
+WHILE(Limit <= Number/2):
+DO IF(Number MOD Limit == 0):
+		THEN IsPrime = FALSE;
+		Break;
+	Limit +=1
+ENDWHILE;
+IF(IsPrime):
+THEN PRINT Number + " is a Prime Number!";
+ELSE PRINT Number + " is not a Prime Number!";
+ENDIF;
+
+END.
+
+9. Write a program to check whether the triangle is equilateral, isosceles or scalene triangle.
+	In a scalene triangle, all the sides of a triangle are of different length.
+	In an isosceles triangle, two sides of a triangle are of the same measure.
+	In an equilateral triangle, all the sides of a triangle are of equal length.
+
+PROGRAM IdentifyTriangle:
+
+READ SIDE1;
+READ SIDE2;
+READ SIDE3;
+IF(SIDE1 == SIDE2 AND SIDE1 == SIDE3):
+	THEN PRINT "It is an Equilateral Triangle!";
+	ELSE IF(SIDE1 == SIDE2 OR SIDE2==SIDE3 OR SIDE1==SIDE3):
+		THEN PRINT "It is an Isosceles Triangle!";
+		ELSE PRINT "It is an Scalene Triangle!";
+	ENDIF
+ENDIF
+
+END.
+
+10. Print this pattern: (using multiple prints and then by loop)
+
+*
+**
+***
+****
+*****
+
+PROGRAM PrintPatterm:
+
+PRINT "*";
+PRINT "**";
+PRINT "***";
+PRINT "****";
+PRINT "*****";
+
+FOR(I = 1 to 5, STEP = 1):
+	FOR(J = 1 to I, STEP = J):
+		PRINT_INLINE "*";
+	ENDFOR;
+	PRINT ""
+ENDFOR;
+
+END.
+
+BONUS. Write a function that checks whether a number is a palindrome or not.
+
+PROGRAM CheckPalindrome:
+
+READ Number;
+Reverse = 0;
+NumberCopy = Number;
+WHILE(NumberCopy != 0):
+DO Reverse = Reverse * 10 + (NumberCopy MOD 10);
+NumberCopy /= 10;
+ENDWHILE;
+IF(Reverse == Number):
+THEN PRINT Number + " is a Palindrome!";
+ELSE PRINT Number + " is not a Palindrome!";
+ENDIF;
+
+END.

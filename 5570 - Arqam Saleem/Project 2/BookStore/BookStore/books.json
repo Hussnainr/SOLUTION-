@@ -1,0 +1,37 @@
+[
+  {
+    "Id": 1,
+    "Title": "The Odyssey",
+    "Author": "Homer",
+    "Description": "The Odyssey by Homer is an epic poem that stands as a cornerstone of Western literature, chronicling the adventurous and tumultuous journey of Odysseus, the King of Ithaca, as he strives to return home following the Trojan War. Composed in the 8th century BCE, this timeless tale intertwines themes of heroism, loyalty, and the quest for identity. Odysseus, renowned for his cunning and resourcefulness, faces a decade-long odyssey fraught with perilous encounters and divine interventions. From the wrathful sea god Poseidon to the alluring song of the Sirens, every challenge tests his resilience and wit. Along his voyage, Odysseus navigates encounters with mythical creatures like the Cyclops Polyphemus, the enchantress Circe, and the deadly Scylla and Charybdis. Parallel to Odysseus's journey is the story of his wife, Penelope, and son, Telemachus, who fend off suitors vying for Penelope's hand and Ithaca's throne. Their perseverance and faith in Odysseus's return highlight the enduring power of love and familial bonds. The Odyssey is more than a tale of adventure; it is a profound exploration of human endurance, the longing for home, and the struggle against fate. Homer's masterful storytelling and rich characterizations offer readers a timeless reflection on the complexities of life and the resilience of the human spirit. Whether experienced as an enthralling adventure or a philosophical journey, The Odyssey remains a monumental work that continues to captivate and inspire readers across generations.",
+    "ImageUrl": "assets/images/Odyssey.jpg"
+  },
+  {
+    "Id": 2,
+    "Title": "Verity",
+    "Author": "Colleen Hoover",
+    "Description": "Verity by Colleen Hoover is a romantic thriller that delves into the dark and twisted world of bestselling novelist Verity Crawford. When Lowen Ashleigh is hired to complete Verity's popular series, she uncovers a hidden manuscript that reveals Verity's shocking secrets and sinister intentions. As Lowen becomes more entangled in Verity's life, she begins to question everything she thought she knew about the enigmatic author. With its mind-bending twists and turns, Verity is a gripping tale of obsession, deceit, and the blurred lines between reality and fiction.",
+    "ImageUrl": "assets/images/Verity.jpg"
+  },
+  {
+    "Id": 3,
+    "Title": "Pride and Prejudice",
+    "Author": "Jane Austen",
+    "Description": "A romantic novel about the complex relationships between the Bennett sisters and their various love interests in 19th-century England.",
+    "ImageUrl": "assets/images/Pride.jpg"
+  },
+  {
+    "Id": 4,
+    "Title": "The Shining",
+    "Author": "Stephen King",
+    "Description": "Pride and Prejudice by Jane Austen is a timeless romance that follows the lives of the Bennett sisters as they navigate love, family, and social class in 19th-century England. When Elizabeth Bennett meets the wealthy Mr. Darcy, she is immediately put off by his pride and perceived arrogance. However, as they continue to cross paths, Elizabeth begins to see Darcy in a new light, and their initial dislike blossoms into a deep and abiding love. With its witty dialogue, strong female characters, and nuanced exploration of relationships, Pride and Prejudice is a beloved classic that continues to captivate readers with its universal themes and enduring charm.",
+    "ImageUrl": "assets/images/Shining.jpg"
+  },
+  {
+    "Id": 5,
+    "Title": "The Song of Ice and Fire",
+    "Author": "George R. R. Martin",
+    "Description": "A book By a dum dum",
+    "ImageUrl": "assets/images/IceFire.jpg"
+  }
+]
